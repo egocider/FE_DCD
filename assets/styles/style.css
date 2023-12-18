@@ -67,8 +67,8 @@ nav a:hover{
 
 .jumbotron{
     font-size: 20px;
-    padding:60px;
-    background-color: #00c8eb;
+    padding:15px;
+    background-color: #990000;
     text-align: center;
     color: #fff;
 }
@@ -80,12 +80,13 @@ nav li{
 
 nav ul {
     padding-inline: 4rem;
-    display: flex;  
+    display: flex;
+    flex-direction: row-reverse;
     gap: 2rem;
 }
 
 nav{
-    background-color: #00a2c6;
+    background-color: #7f0000;
     padding: 5px;
 
     position: sticky;
