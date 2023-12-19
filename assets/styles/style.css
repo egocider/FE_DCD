@@ -18,17 +18,20 @@ main{
 
 
 h2,h3 {
-    color: #00a2c6;
+    color: #677AD5;
 
 }
 
 footer{
     padding:20px;
     color:white;
-    background-color: #00a2c6;
+    background-color: #59598A;
     text-align: center;
     font-weight: bold;
 
+}
+article p{
+    text-align: justify;
 }
 
 nav a{
@@ -40,7 +43,7 @@ nav a{
 
 
 nav a:hover{
-    color: red;
+    color: #8B0101;
 }
 
 .profile header {
@@ -68,7 +71,7 @@ nav a:hover{
 .jumbotron{
     font-size: 20px;
     padding:15px;
-    background-color: #990000;
+    background-color: #677AD5;
     text-align: center;
     color: #fff;
 }
@@ -81,12 +84,12 @@ nav li{
 nav ul {
     padding-inline: 4rem;
     display: flex;
-    flex-direction: row-reverse;
+    justify-content: flex-end;
     gap: 2rem;
 }
 
 nav{
-    background-color: #7f0000;
+    background-color: #4153AF;
     padding: 5px;
 
     position: sticky;
@@ -97,7 +100,7 @@ header{
     display: inline;
 }
 
-#content{
+.content{
     flex: 5;
     display: flex;
     flex-flow: column nowrap;
@@ -105,6 +108,12 @@ header{
 }
 aside{
     flex: 1;
+}
+
+table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @media screen and (max-width:1200px) {
